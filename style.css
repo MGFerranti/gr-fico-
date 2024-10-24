@@ -1,0 +1,72 @@
+body {
+  font-family: 'Orbitron', sans-serif;
+  background-color: #2b2b2b; /* Cinza escuro profundo como fundo */
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header {
+  padding: 30px;
+  margin-bottom: 30px;
+  background-color: #3b3b3b; /* Cinza intermediário */
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5);
+  border-bottom: 1px solid #b0b0b0; /* Cinza claro */
+}
+
+h1 {
+  color: #f2f2f2; /* Cinza quase branco */
+  font-size: 2.2em;
+}
+
+p {
+  color: #d1d1d1; /* Cinza mais claro */
+  font-size: 1.3em;
+}
+
+section {
+  padding: 20px;
+}
+
+canvas {
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: #3b3b3b; /* Fundo cinza intermediário para o gráfico */
+  border-radius: 10px;
+  box-shadow: 0px 4px 20px rgba(128, 128, 128, 0.5); /* Efeito neon cinza */
+  padding: 15px;
+}
+
+footer {
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #3b3b3b; /* Cinza intermediário */
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+footer p {
+  color: #f2f2f2;
+  font-size: 1.2em;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  display: inline;
+  margin: 0 20px;
+}
+
+ul li a {
+  color: #b0b0b0; /* Cinza claro */
+  font-size: 1.3em;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+ul li a:hover {
+  color: #e0e0e0; /* Cinza mais claro ao passar o mouse */
+}
